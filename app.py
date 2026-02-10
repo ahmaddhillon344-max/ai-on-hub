@@ -27,8 +27,8 @@ if st.button("Video Banayein"):
             try:
                 # Video generation model chalana
                 output = replicate.run(
-                    "ali-vilat/zeroscope-v2-xl:9f7434067175979f30f185399745c4369a451d0d0d822d3cb4d24119e7a177" ,
-                    input={"prompt": prompt}
+    "anotherjesse/zeroscope-v2-xl:9f7434067175979f30f185399745c4369a451d0d0d822d3cb4d24119e7a177",
+    input={"prompt": prompt}
                 )
                 # Video dikhana
                 st.video(output[0])
