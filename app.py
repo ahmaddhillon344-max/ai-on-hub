@@ -2,7 +2,7 @@ import streamlit as st
 from openai import OpenAI
 
 # App ka Title
-st.title("🤖 Mera Pehla AI Chatbot")
+st.title("🤖 ai on hub")
 
 # Sidebar mein API Key mangna
 with st.sidebar:
